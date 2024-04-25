@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main"
+        tools:context=".wellcomePage">
+
+
+
+
+
+    <ImageView android:layout_width="match_parent" android:layout_height="375dp"
+               android:id="@+id/shp_ungu"
+               android:src="@drawable/ellipse_79"
+               android:layout_marginTop="-90dp"
+
+
+               android:layout_alignParentEnd="true" android:layout_marginEnd="0dp"/>
+    <ImageView android:layout_width="216dp" android:layout_height="144dp"
+               android:src="@drawable/ellipse_78"
+               android:layout_marginLeft="-90dp"
+
+    />
+
+    <ImageView android:layout_width="173dp" android:layout_height="32dp"
+               android:id="@+id/logo"
+               android:src="@drawable/logo_1"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="20dp"
+    />
+
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:id="@+id/text1"
+              android:text="Your Are Wellcome!!"
+              android:textColor="@color/white"
+              android:textStyle="bold"
+              android:textSize="30sp"
+              android:layout_marginTop="30dp"
+              android:layout_marginLeft="30dp"
+              android:layout_below="@id/shp_ungu"
+
+
+
+    />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:id="@+id/text2"
+              android:textSize="15sp"
+              android:text="let’s improve your healthy and body"
+              android:textColor="@color/white"
+              android:layout_marginLeft="30dp"
+              android:layout_marginTop="5dp"
+              android:textStyle="bold"
+
+              android:layout_below="@+id/text1"
+
+              />
+
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent"
+               android:id="@+id/bg"
+               android:src="@drawable/white_bg"
+
+
+               android:layout_below="@+id/text2"
+
+               android:layout_marginTop="20dp"/>
+
+<!--    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"-->
+<!--            android:id="@+id/btn1"-->
+<!--            android:text="continue with number"-->
+<!--            android:backgroundTint="@color/button"-->
+<!--            android:layout_below="@+id/text2"-->
+<!--            android:layout_marginTop="40dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+
+<!--    />-->
+
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn1"
+            android:text="continue with number"
+            android:backgroundTint="@color/button"
+            android:layout_below="@+id/text2"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/mobile_phone"
+            android:textSize="15sp" />
+
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:id="@+id/or"
+              android:text="OR"
+              android:textColor="@color/grey"
+              android:layout_marginTop="70dp"
+              android:textStyle="bold"
+              android:layout_below="@+id/btn1"
+              android:textSize="15sp"
+              android:layout_centerHorizontal="true"
+
+              />
+
+
+    <ImageView android:layout_width="162dp" android:layout_height="38dp"
+               android:id="@+id/lline1"
+               android:src="@drawable/line_9"
+               android:layout_marginTop="63dp"
+               android:layout_below="@+id/btn1"
+               android:layout_toRightOf="@+id/or"
+               android:layout_marginLeft="16dp"/>
+
+    <ImageView android:layout_width="162dp" android:layout_height="38dp"
+               android:id="@+id/lline2"
+               android:src="@drawable/line_9"
+               android:layout_marginTop="63dp"
+               android:layout_below="@+id/btn1"
+               android:layout_toLeftOf="@+id/or"
+               android:layout_marginRight="16dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:id="@+id/logintext"
+              android:textSize="20sp"
+              android:text="Login Another Metode"
+              android:textColor="@color/anon_black"
+
+              android:layout_centerHorizontal="true"
+              android:layout_below="@+id/or"
+              android:layout_marginTop="60dp"
+              android:textStyle="bold"
+
+              />
+
+    <LinearLayout
+            android:id="@+id/lin1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logintext"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+        <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/line" />
+
+        <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/line" />
+
+        <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/linkedin" />
+
+        <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/telegram" />
+
+        <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/github" />
+
+        <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/instagram" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/lin2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lin1"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/try2"
+                  android:text="Don’t have account?"
+
+                  android:layout_centerHorizontal="true"
+                  android:layout_below="@+id/lin1"
+
+
+        />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/textReg"
+                  android:text="Register"
+                  android:layout_below="@+id/lin1"
+                  android:layout_toRightOf="@+id/try2"
+                  android:layout_marginLeft="5dp"
+                  android:textColor="@color/button"
+
+        />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

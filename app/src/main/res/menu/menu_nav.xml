@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/leanring"
+          android:title="Learning"
+          android:iconTint="@color/white"
+          android:icon="@drawable/jadwal" />
+
+    <item android:id="@+id/home"
+          android:title="Home"
+          android:iconTint="@color/white"
+          android:icon="@drawable/home"/>
+
+    <item android:id="@+id/stat"
+          android:title="Profile"
+          android:iconTint="@color/white"
+          android:icon="@drawable/prof"/>
+
+
+</menu>
